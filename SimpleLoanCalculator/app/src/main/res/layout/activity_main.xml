@@ -27,11 +27,14 @@
         android:textSize="13dp"/>
 
     <EditText
+        android:id="@+id/moneyTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,11 +45,14 @@
         android:textSize="13dp"/>
 
     <EditText
+        android:id="@+id/interestTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,11 +63,14 @@
         android:textSize="13dp"/>
 
     <EditText
+        android:id="@+id/yearTv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
 
     <Button
         android:layout_width="match_parent"
@@ -78,6 +87,7 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/calculateBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="*สินเชื่อแนะนำ"
